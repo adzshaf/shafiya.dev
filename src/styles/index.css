@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Plus Jakarta Display;
+    font-weight: 400;
+    src: url(/fonts/PlusJakartaDisplay-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Plus Jakarta Display;
+    font-weight: 700;
+    src: url(/fonts/PlusJakartaDisplay-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Plus Jakarta Display;
+    font-weight: 500;
+    src: url(/fonts/PlusJakartaDisplay-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-weight: normal;
+    src: url(/fonts/Inter-Regular.woff2) format("woff2"),
+      url(/fonts/Inter-Regular.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: Inter;
+    font-weight: bold;
+    src: url(/fonts/Inter-Bold.woff) format("woff2"),
+      url(/fonts/Inter-Bold.woff) format("woff");
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: Plus Jakarta Display;
+    font-weight: 700;
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-family: Plus Jakarta Display;
+    font-weight: 500;
+  }
+
+  p {
+    font-family: Inter;
+    font-weight: normal;
+  }
+
+  strong {
+    font-family: Inter;
+    font-weight: bold;
+  }
+}
+
+body {
+  @apply bg-dark-gray;
+}
