@@ -1,0 +1,19 @@
+.title {
+  font-family: Victor Mono;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ffffea;
+}
+
+.nav {
+  font-size: 2rem;
+  color: #ffffea;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.nav:hover {
+  color: #66ffac;
+  cursor: pointer;
+}

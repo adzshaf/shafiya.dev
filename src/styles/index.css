@@ -35,6 +35,12 @@
       url(/fonts/Inter-Bold.woff) format("woff");
   }
 
+  @font-face {
+    font-family: Victor Mono;
+    font-weight: bold;
+    src: url(/fonts/VictorMono-Bold.ttf) format("truetype");
+  }
+
   h1,
   h2,
   h3 {

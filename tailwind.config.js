@@ -7,13 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-gray': "#303746",
-        'bright-gray': "4B566A",
-        'ivory': "#FFFFEA",
-        'neon-green': "66FFAC"
-      }
+        "dark-gray": "#303746",
+        "bright-gray": "#4B566A",
+        ivory: "#FFFFEA",
+        "neon-green": "#66FFAC",
+      },
+      fontSize: {
+        "2x16": "2rem",
+        "7xl": "4.5rem",
+      },
     },
   },
   variants: {},
   plugins: [],
-}
+};
