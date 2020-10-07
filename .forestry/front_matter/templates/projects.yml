@@ -1,0 +1,41 @@
+---
+label: Projects
+hide_body: true
+fields:
+- name: project_image
+  type: file
+  config:
+    maxSize: 64
+  label: Project Image
+  description: Project description
+  hidden: false
+- name: project_title
+  type: text
+  config:
+    required: false
+  label: Project Title
+  description: Title for project
+- name: project_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Project description
+  description: Short description about your project
+- name: project_tags
+  type: tag_list
+  default: []
+  label: Project tags
+  description: Project tags (language, framework, etc)
+- name: project_link
+  type: text
+  config:
+    required: false
+  label: Project link
+  description: Your project's link
+pages:
+- content/projects/compfest11.md
+- content/projects/compfest12.md
