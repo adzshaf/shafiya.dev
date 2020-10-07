@@ -30,5 +30,11 @@ fields:
   default: []
   label: Project tags
   description: Project tags (language, framework, etc)
+- name: project_link
+  type: text
+  config:
+    required: false
+  label: Project link
+  description: Your project's link
 pages:
 - content/projects/compfest12.md
