@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const Hero: FC = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center h-screen">
       <div className="flex flex-1 justify-center items-center">
         <img
           className={`${styles["hero-image"]}`}
