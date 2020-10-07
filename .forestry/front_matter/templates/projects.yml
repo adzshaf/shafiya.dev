@@ -30,3 +30,5 @@ fields:
   default: []
   label: Project tags
   description: Project tags (language, framework, etc)
+pages:
+- content/projects/compfest12.md
