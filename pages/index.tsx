@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { FC } from "react";
-import Navbar from "../src/components/Navbar";
+import Layout from "../src/components/Layout";
 import Hero from "../src/components/Hero";
+import Works from "../src/components/Works";
 
 const Home: FC = () => {
   return (
@@ -11,8 +12,10 @@ const Home: FC = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <Hero />
+      <Layout>
+        <Hero />
+        <Works />
+      </Layout>
     </div>
   );
 };

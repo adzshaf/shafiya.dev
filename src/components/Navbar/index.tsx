@@ -3,9 +3,9 @@ import styles from "./Navbar.module.css";
 
 const Navbar: FC = () => {
   return (
-    <div className="flex justify-between p-8">
+    <div className="flex justify-between py-8 absolute w-100">
       <h1 className={`${styles.title}`}>shafiya.dev</h1>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center self-end">
         <h1 className={`${styles.nav}`}>home</h1>
         <h1 className={`${styles.nav} ml-16`}>writing</h1>
         <h1 className={`${styles.nav} ml-16`}>work</h1>
