@@ -37,4 +37,5 @@ fields:
   label: Project link
   description: Your project's link
 pages:
+- content/projects/compfest11.md
 - content/projects/compfest12.md
