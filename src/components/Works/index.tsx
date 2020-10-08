@@ -1,10 +1,15 @@
-import { FC } from "react";
-import styles from "./Works.module.css";
+import { ProjectCard } from "./ProjectCard";
 
-const Works: FC = () => {
+const Works = (props) => {
+  const { content } = props;
   return (
-    <div>
-      <h1 className="text-ivory text-5xl underline">Recent Works.</h1>
+    <div className="mb-8">
+      <h1 className="text-ivory text-5xl underline mb-8">Recent Works.</h1>
+      <div className="flex">
+        {content.map((item) => (
+          <ProjectCard {...item} />
+        ))}
+      </div>
     </div>
   );
 };

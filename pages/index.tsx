@@ -1,10 +1,27 @@
 import Head from "next/head";
-import { FC } from "react";
 import Layout from "../src/components/Layout";
 import Hero from "../src/components/Hero";
 import Works from "../src/components/Works";
+import { getAllProjects } from "../lib/api";
 
-const Home: FC = () => {
+type Props = {
+  content: Array<any>;
+};
+
+export function getStaticProps() {
+  const content = getAllProjects();
+  const contentType = content.map((item, index) => {
+    let cloneItem = { ...item };
+    cloneItem["className"] = index === 0 ? "mr-4" : "";
+    return cloneItem;
+  });
+
+  return {
+    props: { content: contentType },
+  };
+}
+
+const Home = ({ content }: Props) => {
   return (
     <div>
       <Head>
@@ -14,7 +31,9 @@ const Home: FC = () => {
 
       <Layout>
         <Hero />
-        <Works />
+        <div id="work">
+          <Works content={content} />
+        </div>
       </Layout>
     </div>
   );

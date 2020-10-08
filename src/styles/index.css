@@ -69,3 +69,7 @@
 body {
   @apply bg-dark-gray;
 }
+
+html {
+  scroll-behavior: smooth;
+}

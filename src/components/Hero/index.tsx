@@ -1,6 +1,7 @@
 import { FC } from "react";
 import styles from "./Hero.module.css";
 import Button from "../Button";
+import Link from "next/link";
 
 const Hero: FC = () => {
   return (
@@ -20,7 +21,9 @@ const Hero: FC = () => {
         <p className="text-white text-2xl mt-8 mb-16">
           i’m on my mission to build greater things using tech
         </p>
-        <Button>Click Me</Button>
+        <Link href="#work">
+          <Button>Click Me</Button>
+        </Link>
       </div>
     </div>
   );
