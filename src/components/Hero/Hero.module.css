@@ -1,0 +1,9 @@
+.hero-image {
+  height: 500px;
+}
+
+.name {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #66ffac;
+}
