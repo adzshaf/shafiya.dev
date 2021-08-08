@@ -12,6 +12,9 @@ const Navbar: FC = () => {
         <Link href="/">
           <h1 className={`${styles.nav}`}>home</h1>
         </Link>
+        <a href="https://blog.shafiya.dev/">
+          <h1 className={`${styles.nav} ml-4`}>blog</h1>
+        </a>
       </div>
     </div>
   );
