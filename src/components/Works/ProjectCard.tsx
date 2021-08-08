@@ -18,7 +18,7 @@ export const ProjectCard: FC<Project> = ({
   className,
 }: Project) => {
   return (
-    <div className={`bg-bright-gray w-100 ${className}`}>
+    <div className={`bg-bright-gray w-100 ${className} mb-4 w-full`}>
       <img src={project_image} />
       <div className="text-ivory p-4">
         <h1 className="mb-4">{project_title}</h1>
