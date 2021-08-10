@@ -8,5 +8,8 @@ experience_end_period:
 experience_description: Designed and implemented Xendit SDK for Xendit Payment Gateway
   REST API from scratch.
 experience_link: https://xendit.co/
+experience_descriptions:
+- item: Designed and implemented Xendit SDK for Xendit Payment Gateway REST API from
+    scratch.
 
 ---
