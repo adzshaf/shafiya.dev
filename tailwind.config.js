@@ -16,6 +16,10 @@ module.exports = {
         "2x16": "2rem",
         "7xl": "4.5rem",
       },
+      inset: {
+        "-1": "-0.25rem",
+        "-2": "-0.5rem",
+      },
     },
   },
   variants: {},

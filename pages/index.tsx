@@ -2,14 +2,18 @@ import Head from "next/head";
 import Layout from "../src/components/Layout";
 import Hero from "../src/components/Hero";
 import Works from "../src/components/Works";
-import { getAllProjects } from "../lib/api";
+import { getAllExperiences, getAllProjects } from "../lib/api";
+import Timeline from "../src/components/Timeline";
 
 type Props = {
   content: Array<any>;
+  experienceContent: any;
 };
 
 export function getStaticProps() {
   const content = getAllProjects();
+  const experienceContent = getAllExperiences();
+
   const contentType = content.map((item, index) => {
     let cloneItem = { ...item };
     cloneItem["className"] = index === 0 ? "mr-4" : "";
@@ -17,11 +21,11 @@ export function getStaticProps() {
   });
 
   return {
-    props: { content: contentType },
+    props: { content: contentType, experienceContent: experienceContent },
   };
 }
 
-const Home = ({ content }: Props) => {
+const Home = ({ content, experienceContent }: Props) => {
   return (
     <div>
       <Head>
@@ -31,6 +35,7 @@ const Home = ({ content }: Props) => {
 
       <Layout>
         <Hero />
+        <Timeline experiences={experienceContent} />
         <div id="work">
           <Works content={content} />
         </div>
