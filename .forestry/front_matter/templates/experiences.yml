@@ -1,4 +1,33 @@
 ---
 label: Experiences
 hide_body: true
-fields: []
+fields:
+- name: experience_title
+  type: text
+  config:
+    required: false
+  label: Experience Position
+  description: Experience Job Title
+- name: experience_organization
+  type: text
+  config:
+    required: false
+  label: Experience Organization
+- name: experience_period
+  type: datetime
+  label: Experience Period
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: experience_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Experience Description
