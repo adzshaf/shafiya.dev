@@ -49,6 +49,19 @@ fields:
   type: tag_list
   default: []
   label: Experience Tags
+- name: experience_descriptions
+  type: field_group_list
+  fields:
+  - name: item
+    type: text
+    config:
+      required: false
+    label: Item
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Experience Descriptions
 pages:
 - content/experiences/advo.md
 - content/experiences/h5.md
