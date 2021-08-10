@@ -31,3 +31,12 @@ fields:
     schema:
       format: markdown
   label: Experience Description
+- name: experience_link
+  type: text
+  config:
+    required: false
+  label: Experience Link
+- name: experience_tags
+  type: tag_list
+  default: []
+  label: Experience Tags
