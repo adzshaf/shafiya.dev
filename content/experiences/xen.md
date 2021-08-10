@@ -9,10 +9,10 @@ experience_description: Designed and implemented Xendit SDK for Xendit Payment G
   REST API from scratch.
 experience_link: https://xendit.co/
 experience_descriptions:
-- item: Wrote documentation and example usage of Xendit SDK to help developers use
-    the library.
 - item: Designed and implemented Xendit SDK for Xendit Payment Gateway REST API from
     scratch.
 - item: 'Created unit tests for Xendit SDK '
+- item: Wrote documentation and example usage of Xendit SDK to help developers use
+    the library.
 
 ---
