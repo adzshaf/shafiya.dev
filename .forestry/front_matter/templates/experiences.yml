@@ -49,3 +49,5 @@ fields:
   type: tag_list
   default: []
   label: Experience Tags
+pages:
+- content/experiences/frontend-eng.md

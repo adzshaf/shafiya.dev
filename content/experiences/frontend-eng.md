@@ -1,0 +1,17 @@
+---
+experience_tags:
+- React
+- Redux
+- Storybook
+- Cypress
+experience_title: Frontend Engineer (Intern & Part-Time)
+experience_organization: Happy5
+experience_start_period: 2019-06-23T16:00:00Z
+experience_end_period: 2020-11-12T16:00:00Z
+experience_description: |-
+  • Initiated the company’s first documentation of design system with Storybook.
+  • Established the company’s first end-to-end testing system using Cypress.
+  • Built a better experience for performance review system by utilizing React Context and Hooks.
+experience_link: https://happy5.co
+
+---
