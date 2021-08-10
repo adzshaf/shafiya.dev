@@ -10,5 +10,9 @@ experience_description: |-
   • Developed SSN and Tax Number features in user and customer management for supply chain management system using Java Spring and MySQL
   • Improved feature in showing unread notifications
 experience_link: https://advotics.com
+experience_descriptions:
+- item: Developed SSN and Tax Number features in user and customer management for
+    supply chain management system using Java Spring and MySQL
+- item: Improved feature in showing unread notifications
 
 ---
