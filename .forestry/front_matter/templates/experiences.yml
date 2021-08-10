@@ -55,6 +55,7 @@ fields:
   label: Experience Tags
 pages:
 - content/experiences/advo.md
+- content/experiences/cf12.md
 - content/experiences/dsc.md
 - content/experiences/h5.md
 - content/experiences/sbox.md
