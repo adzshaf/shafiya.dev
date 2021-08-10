@@ -44,15 +44,6 @@ fields:
     max: 
     labelField: 
   label: Experience Descriptions
-- name: experience_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Experience Description
 - name: experience_link
   type: text
   config:
