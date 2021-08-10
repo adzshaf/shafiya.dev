@@ -13,9 +13,18 @@ fields:
   config:
     required: false
   label: Experience Organization
-- name: experience_period
+- name: experience_start_period
   type: datetime
-  label: Experience Period
+  label: Experience Start Period
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: experience_end_period
+  type: datetime
+  label: Experience End Period
   description: ''
   config:
     required: false
